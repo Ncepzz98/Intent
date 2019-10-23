@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hasilakumulasi"
+    android:background="@drawable/tmp_nilai">
+
+
+    //==============================================
+
+    <TextView
+        android:id="@+id/ket4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
+        android:text="Keterangan    :"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#fff"
+        android:textColorHint="#ffff"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ket3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ket1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="96dp"
+        android:text="NIM                :"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#fff"
+        android:textColorHint="#ffff"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Nilaie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Nilai"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#fff"
+        android:textColorHint="#ffff"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/ket3"
+        app:layout_constraintTop_toBottomOf="@+id/Namae"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Nime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="96dp"
+        android:text="NIM"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#fff"
+        android:textColorHint="#ffff"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/ket1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ket3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:text="Nilai                :"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#fff"
+        android:textColorHint="#ffff"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ket2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Keterangane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Keterangan"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#fff"
+        android:textColorHint="#ffff"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/ket4"
+        app:layout_constraintTop_toBottomOf="@+id/Nilaie"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ket2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
+        android:text="Nama             :"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#fff"
+        android:textColorHint="#ffff"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ket1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Namae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Nama"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#fff"
+        android:textColorHint="#ffff"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/ket2"
+        app:layout_constraintTop_toBottomOf="@+id/Nime"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="98dp"
+        android:layout_height="41dp"
+        android:background="@drawable/btn_back"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Keterangane"
+        app:layout_constraintVertical_bias="0.878" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

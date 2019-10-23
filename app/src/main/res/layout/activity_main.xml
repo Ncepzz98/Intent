@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="126dp">
+
+        <EditText
+            android:id="@+id/nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="10dp"
+            android:hint="NIM"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#fff"
+            android:textColorHint="#ffff"
+            android:textColorLink="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#fff"
+            android:textColorHint="#ffff"
+            />
+
+        <EditText
+            android:id="@+id/nilai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#fff"
+            android:textColorHint="#ffff"
+            />
+
+        <Button
+            android:id="@+id/btn_proses"
+            android:layout_width="110dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/btn_input" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
